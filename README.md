@@ -24,10 +24,11 @@ pip install proverbes_chinois
 
 ## Use
 
+````
 import numpy as np
 from proverbes_chinois.proverbes import genere_random_proverbe
 
-````
+
 if __name__ == "__main__":
     np.random.seed(4)
     for i in range(30):
